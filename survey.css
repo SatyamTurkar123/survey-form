@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(129, 137, 238, 0.541); 
+}
+h1{
+     text-align: center;
+}
+
+h1, h2 {
+    color: #296308;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
